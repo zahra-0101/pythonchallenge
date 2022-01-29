@@ -1,8 +1,8 @@
 import numpy as np
-from q1_max_min import GenerateArray
+from q1_max_min import GeneratingList
 
 
-class SwappingArray(GenerateArray):
+class SwappingList(GeneratingList):
 
 	def swapping(self):
 		random_array = self.generate_random_list()
@@ -14,7 +14,7 @@ class SwappingArray(GenerateArray):
 		return random_array, random_swapped_array
 
 # array_size can only be even numbers.
-array_size = 6
-swapped_array = SwappingArray(1, 20, array_size)
+array_size = 10
+swapped_array = SwappingList(1, 20, array_size)
 random_arr, swapped_arr = swapped_array.swapping()
 print('random array:', random_arr, '\n', 'swapped array:', swapped_arr)
