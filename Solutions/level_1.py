@@ -1,7 +1,7 @@
 
-class Level_1():
+class Level1():
 	string = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
-
+	
 	def __init__(self, string=string):
 			self.string = string
 
@@ -27,8 +27,10 @@ class Level_1():
 		print(decoded_str)
 
 
-L1 = Level_1()
-L1.decoder()
+step1 = Level1()
+step1.decoder()
 
-L1_url = Level_1('map')
-L1_url.decoder()
+step2 = Level1('map')
+step2.decoder()
+
+# linter
